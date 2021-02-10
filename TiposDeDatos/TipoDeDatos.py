@@ -1,10 +1,17 @@
 # Tipos De Datos
-NombrePersona = "Mario";
-Edad = 22;
-Sexo = "Masculino";
-Telefono = "5513387008";
-Peso = 73.5;
-LeGustaDormir = True;
+print("Escribe tu Nombre: ");
+#input nos permite hacer que el usuario coloque datos y esos sean los que se muestren al final
+NombrePersona = str(input());
+print("Escribe tu Edad: ");
+Edad = input();
+print("Escribe tu Sexo: ");
+Sexo = str(input());
+print("Escribe tu Telefono: ");
+Telefono = input();
+print("Escribe tu Peso: ");
+Peso = str(input());
+print("¿Te gusta dormir?: ");
+LeGustaDormir = str(input());
 #str nos sirve para castear el dato colocado
 print("Nombre: " + NombrePersona);
 print("Edad: " + str(Edad));
