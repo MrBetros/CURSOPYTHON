@@ -1,3 +1,6 @@
+# Comentario
+# Comentario de 2 lineas
+# Para que tu como progrmador comprendas lo que hace esa parte del codigo
 print(1+1)
 print("Hola Mundo");
 print("Saludos a todos");
