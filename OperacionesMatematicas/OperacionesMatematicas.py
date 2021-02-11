@@ -24,11 +24,11 @@ print("El resultado de la suma es: " + str(suma));
 print("El resultado de la resta es: " + str(resta));
 print("El resultado de la multiplicacion es: " + str(multiplicacion));
 print("El resultado de la division es: " + str(division));
-print("El resultado de la suma es: " + str(potencia1));
-print("El resultado de la suma es: " + str(potencia2));
-print("El resultado de la suma es: " + str(raizcuadrada));
-print("El resultado de la suma es: " + str(raizcubica));
-print("El resultado de la suma es: " + str(residuo));
+print("El resultado de la potencia1 es: " + str(potencia1));
+print("El resultado de la potencia2 es: " + str(potencia2));
+print("El resultado de la raiz cuadrada es: " + str(raizcuadrada));
+print("El resultado de la raiz cubica es: " + str(raizcubica));
+print("El resultado del residuo es: " + str(residuo));
 # Nos dice que tipo de dato dinamico estamos manejando
 print(type(suma));
 print(type(resta));
