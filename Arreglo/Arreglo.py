@@ -7,7 +7,7 @@ arreglo[1] = 7.4;
 arreglo[2] = 5;
 arreglo[3] = -25.5;
 arreglo[4] = "PlayStation";
-arreglo[5] = 22;
+arreglo[5] = True;
 
 # Sangria o indentacion.
 for item in arreglo:

@@ -21,14 +21,14 @@ raizcubica = pow(float(num2), float(1/3));
 residuo = float(num1) % float(num2);
 # Salida de Datos
 print("El resultado de la suma es: " + str(suma));
-print(resta);
-print(multiplicacion);
-print(division);
-print(potencia1);
-print(potencia2);
-print(raizcuadrada);
-print(raizcubica);
-print(residuo);
+print("El resultado de la resta es: " + str(resta));
+print("El resultado de la multiplicacion es: " + str(multiplicacion));
+print("El resultado de la division es: " + str(division));
+print("El resultado de la suma es: " + str(potencia1));
+print("El resultado de la suma es: " + str(potencia2));
+print("El resultado de la suma es: " + str(raizcuadrada));
+print("El resultado de la suma es: " + str(raizcubica));
+print("El resultado de la suma es: " + str(residuo));
 # Nos dice que tipo de dato dinamico estamos manejando
 print(type(suma));
 print(type(resta));
