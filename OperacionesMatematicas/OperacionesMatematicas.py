@@ -20,7 +20,7 @@ raizcubica = pow(float(num2), float(1/3));
 # Residuo o Moudulo
 residuo = float(num1) % float(num2);
 # Salida de Datos
-print(suma);
+print("El resultado de la suma es: " + str(suma));
 print(resta);
 print(multiplicacion);
 print(division);
@@ -31,3 +31,11 @@ print(raizcubica);
 print(residuo);
 # Nos dice que tipo de dato dinamico estamos manejando
 print(type(suma));
+print(type(resta));
+print(type(multiplicacion));
+print(type(division));
+print(type(potencia1));
+print(type(potencia2));
+print(type(raizcuadrada));
+print(type(raizcubica));
+print(type(residuo));
