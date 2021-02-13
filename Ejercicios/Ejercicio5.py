@@ -27,4 +27,3 @@ elif (grados == "K"):
     print("Grados Celsius: " + str(cels));
     print("Grados Kelvin: " + str(gradosk));
     print("Grados Fahrenheit: " + str(fahr));
-
