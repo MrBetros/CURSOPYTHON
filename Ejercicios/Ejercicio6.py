@@ -1,13 +1,14 @@
 from math import sqrt
-
-print("Calculemos el valor de x con la Formula General.");
-
-a = float(input("Inserta valor de a: "));
-b = float(input("Inserta valor de b: "));
-c = float(input("Inserta valor de c: "));
-
-x1 = (-b+sqrt((b**2)-(4*a*c)))/(2*a);
-x2 = (-b-sqrt((b**2)-(4*a*c)))/(2*a);
-
-print("El valor de x1 es: " + str(x1));
-print("El valor de x2 es: " + str(x2));
+A = int(input("Ingrese el valor de A: "))
+B = int(input("Ingrese el valor de B: "))
+C = int(input("Ingrese el valor de C: "))
+x1= 0
+x2= 0
+if ((B**2)-4*A*C) < 0:
+  print("La solución de la ecuación es con números complejos")
+else:
+  x1 = (-B+sqrt(B**2-(4*A*C)))/(2*A)
+  x2 = (-B-sqrt(B**2-(4*A*C)))/(2*A)
+  print("Las soluciones de la ecuación son:")
+  print("X1 vale: ", + x1)
+  print("X2 vale: ", + x2)
