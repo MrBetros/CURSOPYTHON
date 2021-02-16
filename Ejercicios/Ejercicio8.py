@@ -1,8 +1,15 @@
-eleccion = print(input("Coloque el nivel del agua: "));
+rango = int(input("Coloca un numero: "));
 
-if eleccion == 'queee':
-    funcion_a(eeeeaa)
-elif eleccion == 'b':
-    funcion_b(eeee)
-elif eleccion == 'c':
-    funcion_cg(jjj)
+if rango < 0 and rango > -100:
+    for rango in range(-101, 0):
+        if rango % 2 != 0:
+            print(rango)
+elif rango > 0 and rango < 101:
+    for rango in range(0, 101):
+        if rango % 2 ==0:
+            print(rango)
+else:
+    print("No valido.");
+
+
+
